@@ -1,0 +1,10 @@
+get_filename_component(_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
+set (aprutil_INCLUDE_DIRS "${_PREFIX}/include")
+set (aprutil_LIBRARIES debug "${_PREFIX}/lib/aprutild.lib" optimized "${_PREFIX}/lib/aprutil.lib")
+
+set (aprutil_INCLUDE_DIR "${aprutil_INCLUDE_DIRS}")
+set (APRUTIL_INCLUDE_DIRS "${aprutil_INCLUDE_DIRS}")
+set (APRUTIL_INCLUDE_DIR "${aprutil_INCLUDE_DIRS}")
+set (aprutil_LIBRARY "${aprutil_LIBRARIES}")
+set (APRUTIL_LIBRARIES "${aprutil_LIBRARIES}")
+set (APRUTIL_LIBRARY "${aprutil_LIBRARIES}")

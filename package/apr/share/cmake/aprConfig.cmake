@@ -1,0 +1,10 @@
+get_filename_component(_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
+set (apr_INCLUDE_DIRS "${_PREFIX}/include")
+set (apr_LIBRARIES debug "${_PREFIX}/lib/aprd.lib" optimized "${_PREFIX}/lib/apr.lib")
+
+set (apr_INCLUDE_DIR "${apr_INCLUDE_DIRS}")
+set (APR_INCLUDE_DIRS "${apr_INCLUDE_DIRS}")
+set (APR_INCLUDE_DIR "${apr_INCLUDE_DIRS}")
+set (apr_LIBRARY "${apr_LIBRARIES}")
+set (APR_LIBRARIES "${apr_LIBRARIES}")
+set (APR_LIBRARY "${apr_LIBRARIES}")
