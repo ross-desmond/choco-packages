@@ -26,21 +26,21 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>0.10.0</version>
-    <packageSourceUrl>https://github.com/ros2/choco-packages/tree/latest/package/apr</packageSourceUrl>
-    <owners>Steven! Ragnarök</owners>
+    <version>1.5.2</version>
+    <packageSourceUrl>http://archive.apache.org/dist/apr/</packageSourceUrl>
+    <owners>AWS RoboMaker</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>Log4cxx</title>
+    <title>apr</title>
     <authors>Lee Thomason</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/yyu/apache-log4cxx-metarepo</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/tinyxml-usestl.png</iconUrl>-->
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>http://www.zlib.net/zlib_license.html</licenseUrl>
-    <tags>tinyxml apr xml</tags>
+    <tags>apr</tags>
     <summary>Log4cxx packaged as a static library with CMake package support.</summary>
     <description>
     Log4cxx built for 64-bit Windows with Visual Studio 2015 and CMake package data.
