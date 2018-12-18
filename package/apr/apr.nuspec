@@ -43,8 +43,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>apr</tags>
     <summary>Log4cxx packaged as a static library with CMake package support.</summary>
     <description>
-    Log4cxx built for 64-bit Windows with Visual Studio 2015 and CMake package data.
-    This package will add the `Log4cxx` package to your system CMake package registry.
+    APR built for 64-bit Windows with Visual Studio 2017 and CMake package data.
+    This package will add the `apr` package to your system CMake package registry.
     For details on the CMake packaging used inspect the Chocolatey install scripts in
     `%ChocolateyInstall%\lib\apr\tools` and refer to [cmake-packages(7)](https://cmake.org/cmake/help/v3.0/manual/cmake-packages.7.html).
     </description>
